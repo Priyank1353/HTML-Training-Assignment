@@ -4,7 +4,7 @@ body{
 .loginpg{
     display: flex;
     flex-direction: row;
-    height: 800px;
+    height: 850px;
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -17,6 +17,7 @@ body{
     margin-left: 4%;
     border: 20px solid white ;
     box-shadow: 0px 0px 31px #0000000A;
+    height: 650px;
 }
 
 .form{
@@ -36,19 +37,46 @@ body{
 
 .companyTag{
     font-size: 44px;
-    margin-top: 10px;
-    
+    margin-top: 25px;
+    font-family: 'Roboto', sans-serif;
+    color: #3E3E3E;
+    letter-spacing: 0;
+    font-weight: 800;
 }
 
 #exp{
+
     color: #C8242F;
+    font-weight: 1200;
 }
 
 .loginline{
-    margin-top: 10px;
+    margin-top: 5px;
     font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #3E3E3E;
 }
 
-#disabledInput{
-    
+.form-control{
+    padding: 10% 10%;
+    height: 53px;
+    width: 500px;
+    border: 1px solid #ADADAD;
+}
+.lognforg{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.lognforg h6{   
+    color: #ADADAD;
+}
+
+#logBtn{
+    position: relative;
+    left: -21%;
+    padding: 2.5% 10%;
 }

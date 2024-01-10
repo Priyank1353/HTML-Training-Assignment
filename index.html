@@ -1,56 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/style.css">
-    <link rel="stylesheet" href="CSS/bootstrap.min.css">
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
-</head>
-<body>
-        
-        <div class="loginpg">
-            
-                <img src="Images/hero-image.png" alt="" id="heroimg">
-            
-            <div class="form">
-                <img src="Images/logo.svg" alt="" class="rightitem companyIcon">
-                <p class="companyTag">We are <span id="exp"> experts </span>in business, marketing, growth, & sales</p>
-                <p class="loginline">Login into your account</p>
-                <form style="margin-top: 23px">
-                    <div class="mb-3">
-                      <input
-                        style="width: 429px"
-                        class="form-control"
-                        id="disabledInput"
-                        type="text"
-                        placeholder="Username "
-                      />
-                    </div>
-                    <div class="mb-3">
-                      <input
-                        style="width: 429px"
-                        type="password"
-                        class="form-control"
-                        id="exampleInputPassword1"
-                        placeholder="Password"
-                      />
-                    </div>
-          
-                    <button type="button" class="btn">Login</button>
-          
-                    <div style="margin-top: 23px">
-                      <p>
-                        Are you a new Member? <span style="color: #c8242f"
-                          > Register here
-                        </span>
-                      </p>
-                    </div>
-                  </form>
-            </div>
-        </div>
-    
-    
-</body>
+  </head>
+  <body>
+    <div class="loginpg">
+      <img src="Images/hero-image.png" alt="" id="heroimg" />
+
+      <div class="form">
+        <img src="Images/logo.svg" alt="" class="rightitem companyIcon" />
+        <p class="companyTag">
+          We are <span id="exp"> experts </span>in business, marketing, growth,
+          & sales
+        </p>
+        <p class="loginline">Login into your account</p>
+        <form style="margin-top: 23px">
+          <div class="mb-3">
+            <input
+              style="width: 429px"
+              class="form-control"
+              id="disabledInput"
+              type="text"
+              placeholder="Username "
+            />
+          </div>
+          <div class="mb-3">
+            <input
+              style="width: 429px"
+              type="password"
+              class="form-control"
+              id="exampleInputPassword1"
+              placeholder="Password"
+            />
+          </div>
+          <div class="lognforg">
+            <button
+              type="button"
+              class="btn btn-danger mx-auto rounded-pill"
+              id="logBtn"
+            >
+              Login
+            </button>
+            <h6>Forget Password?</h6>
+          </div>
+
+          <div style="margin-top: 23px">
+            <p style="color: #ADADAD;">
+              Are you a new Member?
+              <span style="color: #c8242f"> Register here </span>
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
 </html>
